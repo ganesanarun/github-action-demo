@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: ganesanarun/github-action-demo
+      uses: ganesanarun/github-action-demo@v1
       with:
         who-to-greet: 'Ganesan Arunachalam'
     # Use the output from the `hello` step
